@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300|Raleway:400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="page1">
+                <div class="slider">
+                    <div class="header">
+                        <div class="logo">
+                            <a href='#' class="logo__image">
+                                <span class="logo__text">Waxom</span>
+                            </a>
+                        </div>
+                        <!--                <div class="header__menu-block">-->
+                        <nav class="menu">
+                            <a href="#" class="menu__item">Home</a>
+                            <a href="#" class="menu__item">AboutUs</a>
+                            <a href="#" class="menu__item">Portfolio</a>
+                            <a href="#" class="menu__item">Features</a>
+                            <a href="#" class="menu__item">Blog</a>
+                            <a href="#" class="menu__item">Pricing</a>
+                            <a href="#" class="menu__item">ShortCodes</a>
+                            <a href="#" class="menu__item">Contacts</a>
+                        </nav>
+                        <!--                </div>-->
+                        <div class="icons">
+                            <a href="#" class="icon__bucket"></a>
+                            <a href="#" class="icon__search"></a>
+                        </div>
+                    </div>
+                    <!--// этот блок слайдера-->
+                    <!-- <div class="slider"> -->
+                    <div class="item" id="slide showing">
+                        <div class="slideText">
+                            <!-- класс slidetext является телом кажого слайда(судя по стилям). с готовыми стилями вставил в этот блок контент -->
+                            <div class="main">
+                                <div class="main__content">
+                                    <h2 class="main__content_second-header">Unique and Modern Design</h2>
+                                    <h1 class="main__content_first-header">Text 1</h1>
+                                    <p class="main__content_text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                                        consectetur
+                                        adipisicing elit. Quia, Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="main__button">
+                                    <input type="button" value="Get Started" class="main__button_get-started"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="item">
+                        <div class="slideText">
+                            <div class="main">
+                                <div class="main__content">
+                                    <h2 class="main__content_second-header">Unique and Modern Design</h2>
+                                    <h1 class="main__content_first-header">Text 2</h1>
+                                    <p class="main__content_text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                                        consectetur
+                                        adipisicing elit. Quia, Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="main__button">
+                                    <input type="button" value="Get Started" class="main__button_get-started"/>
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+        
+                    <div class="item">
+                        <div class="slideText">
+                            <div class="main">
+                                <div class="main__content">
+                                    <h2 class="main__content_second-header">Unique and Modern Design</h2>
+                                    <h1 class="main__content_first-header">Text 3</h1>
+                                    <p class="main__content_text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                                        consectetur
+                                        adipisicing elit. Quia, Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="main__button">
+                                    <input type="button" value="Get Started" class="main__button_get-started"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="item">
+                        <div class="slideText">
+                            <div class="main">
+                                <div class="main__content">
+                                    <h2 class="main__content_second-header">Unique and Modern Design</h2>
+                                    <h1 class="main__content_first-header">Text 4</h1>
+                                    <p class="main__content_text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                                        consectetur
+                                        adipisicing elit. Quia, Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="main__button">
+                                    <input type="button" value="Get Started" class="main__button_get-started"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="item">
+                        <div class="slideText">
+                            <div class="main">
+                                <div class="main__content">
+                                    <h2 class="main__content_second-header">Unique and Modern Design</h2>
+                                    <h1 class="main__content_first-header">Text 5</h1>
+                                    <p class="main__content_text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                                        consectetur
+                                        adipisicing elit. Quia, Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="main__button">
+                                    <input type="button" value="Get Started" class="main__button_get-started"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <a class="prev" onclick="minusSlide()"><img src="img/SLIDER/Arrows/left@1X.png"/> </a>
+                    <a class="next" onclick="plusSlide()"><img src="img/SLIDER/Arrows/right@1X.png"></a>
+                  
+        
+                    <div class="slider-dots">
+                        <span class="slider-dots_item" onclick="currentxSlide(1)"></span>
+                        <span class="slider-dots_item" onclick="currentxSlide(2)"></span>
+                        <span class="slider-dots_item" onclick="currentxSlide(3)"></span>
+                        <span class="slider-dots_item" onclick="currentxSlide(4)"></span>
+                        <span class="slider-dots_item" onclick="currentxSlide(5)"></span>
+                    </div>
+                    <script src="script.js"></script>
+                </div>
+            </div>
+        </div>
+    </header>
+<main>
+<section class="advantages">
+        <div class="advantages__item">
+            <div class="item__img">
+                <img class="no_hover" src="assets/images/01.png" alt="">
+                <img class="hover" src="assets/images/01h.png" alt="">
+            </div>
+            <h3>Web & App Design</h3>
+            <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+            
+        </div>
+        <div class="advantages__item">
+           <div class="item__img">
+            <img class="no_hover" src="assets/images/02.png" alt="">
+            <img class="hover" src="assets/images/02h.png" alt="">
+           </div>
+            <h3>Development</h3>
+            <p>Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+            
+        </div>
+        <div class="advantages__item">
+            <div class="item__img">
+                <img class="no_hover" src="assets/images/03.png" alt="">
+                <img class="hover" src="assets/images/03h.png" alt="">
+               </div>
+            <h3>Customization</h3>
+            <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+            
+        </div>
+        <div class="advantages__item">
+            <div class="item__img">
+                <img class="no_hover" src="assets/images/04.png" alt="">
+                <img class="hover" src="assets/images/04h.png" alt="">
+               </div>
+            <h3>Marketing</h3>
+            <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+            
+        </div>
+</section>
+<section class="page2">
+    <div class="text">
+        <h2 class="text__h2">Waxom is Realization of your Ideas.</h2>
+        <p class="text__p">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est
+            etiam processus dynamicus, qui sequitur mutationem consuetudium.
+        </p>
+    </div>
+    <div class="images">
+        <div class="images__relative">
+            <img src="./img/browser-left@1X.png" alt="">
+            <img src="./img/browser-right@1X.png" alt="">
+        </div>
+        <img class="images__absolute" src="./img/browser-center@1X.png" alt="">
+    </div>
+    <div class="footer">
+        <div class="footer__text">
+            <h2 class="footer__text_h2">
+                <span class="footer__text_h2-logo">Waxom </span>
+                Multipurpose WordPress Theme
+            </h2>
+            <p>Don't Forget to Rate the Template. Thanks so much!</p>
+        </div>
+        <div class="footer__button">
+            <input type="button" value="Purchase now" class="footer__button_purchase-now"/>
+        </div>
+    </div>
+</section>
+
+<section class="projects">
+    <div class="projects__text">
+    <h3>Our Latest Projects.</h3>
+    <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+    </div>
+    
+    <div class="project__items">
+        <input type="radio" id="itemall" name="item">
+        <label for="itemall">All</label>
+
+        <input type="radio" id="web" name="item">
+        <label for="web">Web Design</label>
+
+        <input type="radio" id="app" name="item">
+        <label for="app">Mobile App</label>
+
+        <input type="radio" id="ill" name="item">
+        <label for="ill">Illustration</label>
+
+        <input type="radio" id="photo" name="item">
+        <label for="photo">Photography</label>   
+         <br>  <!-- что бы кнопки фильтров не становились в одну строку с project__item -->
+        <div class="project__row">
+            <div class="project__item photo">
+            <div class="project__img">
+                <img  src="assets/images/project01.png" alt="">
+                <div class="project__bg-img">
+                    <a href="#"> <img src="assets/images/linkh.png" style="width: 26pt;" alt=""></a>
+                    <a href="#"><img src="assets/images/lupah.png" style="width: 26pt;" alt=""></a>        
+                </div>
+            </div>
+            
+            <div class="project__item-info">
+                <p class="title">Claritas Etiam Processus</p>
+                <p class="subtitle">Photography, Nature</p>
+            </div>
+        </div>
+        <div class="project__item web">
+            <div class="project__img">
+                <img  src="assets/images/project02.png" alt="">
+                <div class="project__bg-img">
+                    <a href="#"> <img src="assets/images/linkh.png" style="width: 26pt;" alt=""></a>
+                    <a href="#"><img src="assets/images/lupah.png" style="width: 26pt;" alt=""></a>
+                </div>
+            </div>
+            <div class="project__item-info">
+                <p class="title">Quam Nutamus Farum</p>
+                <p class="subtitle">Graphic Design, Mock-Up</p>
+            </div>
+        </div>
+        <div class="project__item app">
+            <div class="project__img">
+                <img  src="assets/images/project03.png" alt="">
+                <div class="project__bg-img">
+                    <a href="#"> <img src="assets/images/linkh.png" style="width: 26pt;" alt=""></a>
+                    <a href="#"><img src="assets/images/lupah.png" style="width: 26pt;" alt=""></a>
+                </div>
+            </div>
+            <div class="project__item-info">
+                <p class="title">Usus Legentis Videntur</p>
+                <p class="subtitle">Photography, Holiday</p>
+            </div>
+        </div>
+    </div> <br>
+    <div class="project__row">
+        <div class="project__item ill">
+            <div class="project__img">
+                <img  src="assets/images/project04.png" alt="">
+                <div class="project__bg-img">
+                    <a href="#"> <img src="assets/images/linkh.png" style="width: 26pt;" alt=""></a>
+                    <a href="#"><img src="assets/images/lupah.png" style="width: 26pt;" alt=""></a>
+                </div>
+            </div>
+            <div class="project__item-info">
+                <p class="title">Claritas Etiam Processus</p>
+                <p class="subtitle">Photography, Nature</p>
+            </div>
+        </div>
+        <div class="project__item photo">
+            <div class="project__img">
+                <img  src="assets/images/project05.png" alt="">
+                <div class="project__bg-img">
+                    <a href="#"> <img src="assets/images/linkh.png" style="width: 26pt;" alt=""></a>
+                    <a href="#"><img src="assets/images/lupah.png" style="width: 26pt;" alt=""></a>
+                </div>
+            </div>
+            <div class="project__item-info">
+                <p class="title">Quam Nutamus Farum</p>
+                <p class="subtitle">Graphic Design, Mock-Up</p>
+            </div>
+        </div>
+        <div class="project__item web">
+            <div class="project__img">
+                <img  src="assets/images/project06.png" alt="">
+                <div class="project__bg-img">
+                    <a href="#"> <img src="assets/images/linkh.png" style="width: 26pt;" alt=""></a>
+                    <a href="#"><img src="assets/images/lupah.png" style="width: 26pt;" alt=""></a>
+                </div>
+            </div>
+            <div class="project__item-info">
+                <p class="title">Usus Legentis Videntur</p>
+                <p class="subtitle">Photography, Holiday</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <a class="btn__more" href="#">LOAD MORE</a>
+</section>
+<section class="page3">
+    <div class="video-content">
+        <div class="video-content__button">
+            <a><img src="img/Page3/icon-play@1X.png" alt=""
+                    onclick="confirm('Вы перейдете на нашу страницу YouTube. Вы согласны?')"/></a>
+        </div>
+
+        <div class="video-content__text">
+            <h2>Waxom Video Presentation</h2>
+            <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur
+                mutationem
+                consuetudium.</p>
+            <h3>03:26</h3>
+        </div>
+    </div>
+</section>
+<section class="devices">
+    <div class="devices__image">
+        <img style="height: 615px;" src="assets/images/mobile.png" alt="">
+    </div>
+    <div class="devices__text">
+        <h3>Excellent for Mobile Devices.</h3>
+        <p>Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+        <div class="devices__list">
+            <div class="devices__list-item">
+                <img src="assets/images/littlearrow.png" alt="">
+                <p>Nam liber tempor cum soluta nobis eleifend option;</p>
+            </div>
+            <div class="devices__list-item">
+                <img src="assets/images/littlearrow.png" alt="">
+                <p>Option congue nihil imperdiet doming id quod mazim placerat facer;</p>
+            </div>
+            <div class="devices__list-item">
+                <img src="assets/images/littlearrow.png" alt="">
+                <p>Eodem modo typi, qui nunc nobis videntur parum futurum;</p>
+            </div>
+            <div class="devices__list-item">
+                <img src="assets/images/littlearrow.png" alt="">
+                <p>Investigationes demonstraverunt lectores</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="statistics">
+    <div class="statistics__item">
+        <img src="assets/images/sts1.png" alt="">
+        <p class="statistics__number">3587</p>
+        <p class="statistics__text">Satisfied Clients</p>
+    </div>
+    <div class="statistics__item">
+        <img src="assets/images/sts2.png" alt="">
+        <p class="statistics__number">207</p>
+        <p class="statistics__text">Cups of coffee</p>
+    </div>
+    <div class="statistics__item">
+        <img src="assets/images/sts3.png" alt="">
+        <p class="statistics__number">2500</p>
+        <p class="statistics__text">Blog posts</p>
+    </div>
+    <div class="statistics__item">
+        <img src="assets/images/sts4.png" alt="">
+        <p class="statistics__number">873</p>
+        <p class="statistics__text">Likes</p>
+    </div>
+    <div class="statistics__item">
+        <img src="assets/images/sts5.png" alt="">
+        <p class="statistics__number">900</p>
+        <p class="statistics__text">We launched</p>
+    </div>
+    
+</section>
+<section class="page4">
+    <div class="posts">
+        <div class="posts__header">
+            <h2>Recent Posts.</h2>
+        </div>
+        <div class="posts__description">
+            <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
+                processus dynamicus, qui sequitur mutationem consuetudium.</p>
+        </div>
+        <div class="posts__samples">
+            <div class="posts__samples-sample" id="slideOn0">
+                <div class="posts__samples-sample-image">
+                    <img src="img/Page4/photo@1X.png"/>
+                    <div class="posts__samples-sample-image-data">
+                        <div class="posts__samples-sample-image-data-day">
+                            <p>30</p>
+                        </div>
+                        <div class="posts__samples-sample-image-data-month">
+                            <p>Sep.</p>
+                        </div>
+                    </div>
+                    <div class="posts__samples-sample1-image-slides">
+                        <img src="img/Page4/icon/01@1X.png"/>
+                        <img src="img/Page4/icon/02@1X.png"/>
+                        <img src="img/Page4/icon/01@1X.png"/>
+                        <img src="img/Page4/icon/01@1X.png"/>
+                        <img src="img/Page4/icon/01@1X.png"/>
+                    </div>
+                </div>
+                <div class="posts__samples-sample-text">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis delectus doloremque impedit
+                        magni nihil, quibusdam.</p>
+                    <div class="posts__samples-sample-arrow">
+                        <p><a href="#">Read more</a></p>
+                        <a href="#"><img src="img/Page4/icon/arrow@1X.png" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="posts__samples-sample" id="slideOn1">
+                <div class="posts__samples-sample-image">
+                    <img src="img/Page4/photo@2X.png"/>
+                    <!--<div class="posts__samples-sample2-image-slides">
+                        <img src="img/icon/01@1X.png"/>
+                        <img src="img/icon/02@1X.png"/>
+                        <img src="img/icon/01@1X.png"/>
+                        <img src="img/icon/01@1X.png"/>
+                        <img src="img/icon/01@1X.png"/>
+                    </div>-->
+                    <div class="posts__samples-sample-image-data">
+                        <div class="posts__samples-sample-image-data-day">
+                            <p>30</p>
+                        </div>
+                        <div class="posts__samples-sample-image-data-month">
+                            <p>Sep.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts__samples-sample-text">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis delectus doloremque impedit
+                        magni nihil, quibusdam.</p>
+                    <div class="posts__samples-sample-arrow">
+                        <p><a href="#">Read more</a></p>
+                        <a href="#"><img src="img/Page4/icon/arrow@1X.png" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="posts__samples-sample" id="slideOn2">
+                <div class="posts__samples-sample-image">
+                    <img src="img/Page4/photo@3X.png"/>
+                    <!--<div class="posts__samples-sample2-image-slides">
+                        <img src="img/icon/01@1X.png"/>
+                        <img src="img/icon/02@1X.png"/>
+                        <img src="img/icon/01@1X.png"/>
+                        <img src="img/icon/01@1X.png"/>
+                        <img src="img/icon/01@1X.png"/>
+                    </div>-->
+                    <div class="posts__samples-sample-image-data">
+                        <div class="posts__samples-sample-image-data-day">
+                            <p>30</p>
+                        </div>
+                        <div class="posts__samples-sample-image-data-month">
+                            <p>Sep.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts__samples-sample-text">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis delectus doloremque impedit
+                        magni nihil, quibusdam.</p>
+                    <div class="posts__samples-sample-arrow">
+                        <p><a href="#">Read more</a></p>
+                        <a href="#"><img src="img/Page4/icon/arrow@1X.png" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="posts__arrows">
+        <img src="img/Page4/icon/left@1X.png" alt="Left" id="elemLeft"/>
+        <img src="img/Page4/icon/right@1X.png" alt="Right" id="elemRight"/>
+    </div>
+    <div class="testForScript">
+        <script>
+            //первый вариант удачный
+            elemRight.onclick = function () {
+// получить элемент
+                let elem0 = document.getElementById('slideOn0');
+                let elem1 = document.getElementById('slideOn1');
+                let elem2 = document.getElementById('slideOn2');
+
+                if (elem1.style.backgroundColor === '') {
+                    elem1.style.backgroundColor = 'rgb(54,47,45)';
+                    elem2.style.backgroundColor = '';
+                    elem0.style.backgroundColor = '';
+                } else {
+                    elem1.style.backgroundColor = '';
+                    elem0.style.backgroundColor = '';
+                    elem2.style.backgroundColor = 'rgb(54,47,45)';
+                }
+            };
+
+            elemLeft.onclick = function () {
+// получить элемент, задал переменную для каждого блока
+                let elem0 = document.getElementById('slideOn0');
+                let elem1 = document.getElementById('slideOn1');
+                let elem2 = document.getElementById('slideOn2');
+// добавил в условие изменения других блоков по onclick
+                if (elem1.style.backgroundColor === '') {
+                    elem1.style.backgroundColor = 'rgb(54,47,45)';
+                    elem2.style.backgroundColor = '';
+                    elem0.style.backgroundColor = '';
+                } else {
+                    elem2.style.backgroundColor = '';
+                    elem1.style.backgroundColor = '';
+                    elem0.style.backgroundColor = 'rgb(54,47,45)';
+                }
+            };
+            // цикл для перебора блоков, для увеличения  и вычисления по кругу
+            for (i = 0; i < 4; i++) {
+                if (i > 3) {
+                    i = 0;
+                }
+            }
+            // цикл для перебора блоков, для уменьшения и вычисления по кругу
+            // for (i=4;i=0; i--){
+            //     if
+            //         }
+
+        </script>
+        <!--<script>
+            //получаем идентификатор элемента
+            var a = document.getElementById('slade-on');
+            //вешаем на него событие
+            a.onclick = function() {
+                //производим какие-то действия
+                if (this.innerHTML=='On') this.innerHTML = 'Off';
+                else this.innerHTML = 'On';
+            }
+            }
+        </script>-->
+    </div>
+</section>
+<section class="partners">
+       <div class="partners__bgblack">
+        <img src="assets/images/partner1.png" alt="">
+        <img src="assets/images/partner2.png" alt="">
+        <img src="assets/images/partner3.png" alt="">
+        <img src="assets/images/partner4.png" alt="">
+    </div>
+</section>
+
+</main>
+<!-- Footer -->
+<footer>
+    <div class="footer__upper">
+        <div class="footer__upper-item">
+            <div class="footer__upper-logo">
+                <img src="assets/images/logo.png" alt="">
+                <p class="logo-name">Waxom</p>
+            </div>
+            <div class="footer__upper-text">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
+            </div>
+            <div class="footer__upper-link">
+                <a href="">Read More <img src="assets/images/triangle.png" alt=""></a>
+            </div>
+        </div>
+        <div class="footer__upper-item">
+            <div class="footer__upper-name">Recent Posts</div>
+            <div class="footer__upper-event">
+                <p class="date">September 08, 2015</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+            </div>
+            <div class="footer__upper-event">
+                <p class="date">September 08, 2015</p>
+                <p>Diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+            </div>
+            <div class="footer__upper-event">
+                <p class="date">September 08, 2015</p>
+                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</p>
+            </div>
+            
+        </div>
+        <div class="footer__upper-item">
+            <div class="footer__upper-name">Our Twitter</div>
+            <div class="footer__upper-twit">
+                <p><a href="">@waxom</a> Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+                <p class="time">3 mins ago</p>
+            </div>
+            <div class="footer__upper-twit">
+                <p>Mirum est <a href="">#envato</a> notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
+                <p class="time">5 hours ago</p>
+            </div>
+            <div class="footer__upper-twit">
+                <p>Soluta nobis option <span class="bit">bit.ly/1Hniso7</span></p>
+                <p class="time">20 days ago</p>
+            </div>
+        </div>
+        <div class="footer__upper-item">
+            <div class="footer__upper-name">Dribbble Widget</div>
+            <div class="footer__upper-images">
+            <img src="assets/images/widget1.png" alt="">
+            <img src="assets/images/widget2.png" alt="">
+            <img src="assets/images/widget3.png" alt="">
+            <img src="assets/images/widget4.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="footer__lower">
+        <div class="footer__lower-left">
+            <p class="copyright">Copyright © 2015 <span class="lighter">Waxom</span></p>
+            <a class="policy" href="#">Privacy Policy</a>
+            <a class="faq" href="#">FAQ</a>
+            <a class="support" href="#">Support</a>
+        </div>
+        <div class="footer__lower-right">
+            <p class="designet">Designed by <span class="lighter">ThemeFire</span> </p>
+            <p class="only">Only on <span class="lighter">Envato Market</span> </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
